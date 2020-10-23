@@ -1,0 +1,21 @@
+scala> val myName = "Alex"
+val myName: String = Alex
+
+scala> println(myName)
+println(myName)Alex
+
+scala> val greets = Array("Hello", "Greetings", "Privet")
+val greets = Array("Hello", "Greetings", "Privet")val greets: Array[String] = Array(Hello, Greetings, Privet)
+
+scala> for (greet <- greets){println(f"$greet, Scala this is $myName")}
+for (greet <- greets){println(f"$greet, Scala this is $myName")}Hello, Scala this is Alex
+Greetings, Scala this is Alex
+Privet, Scala this is Alex
+
+scala> val reverseMyName = myName.reverse
+val reverseMyName: String = xelA
+
+scala> for (greet <- greets){println(f"$greet Scala, this is $reverseMyName")}
+for (greet <- greets){println(f"$greet Scala, this is $reverseMyName")}Hello Scala, this is xelA
+Greetings Scala, this is xelA
+Privet Scala, this is xelA
